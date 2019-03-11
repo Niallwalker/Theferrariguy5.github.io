@@ -1,0 +1,101 @@
+/* Add a black background color to navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: black;
+  
+}
+
+/* Style the links inside the navigation bar */
+.nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.nav a:hover {
+  background-color: #F6A243;
+  color: white;
+}
+
+/* Style the "active" element to highlight the current page */
+.nav a.active {
+  background-color: #FF8900;
+  color: white;
+}
+/*end of nav bar
+/*slideshow*/
+@keyframes fade {
+  0%   { opacity: 0; }
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+.fadein { 
+	position:relative; 
+	height:467px; 
+	width:700px; 
+	outline: 5px solid orange;
+	float: left; 
+}
+.fadein img { position:absolute; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite; }
+.fadein img:nth-child(1) { animation-delay: 0s;  }
+.fadein img:nth-child(2) { animation-delay: 3s;  }
+.fadein img:nth-child(3) { animation-delay: 6s;  }
+/*end of slideshow*/
+
+.col1{
+	position:relative; 
+	width:50%; 
+	float: left;
+	padding: 15px;
+}
+.col2{
+	position:relative; 
+	width:50%; 
+	float: right; 
+	padding: 15px;
+}
+.location { 
+	position:relative; 
+	height:467px;
+	outline: 5px solid orange; 
+	float: left; 
+}
+.banner{
+	width: 100%;
+}
+.logo{
+	float: center;
+}
+.footer{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	float: right;
+}
+.award{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	float: right;
+}
+.p{
+	width: 100%;
+	text-align: center;
+}
+.footer{
+	background-color: orange;
+	color: white;
+}	
+.about{
+	text-align: center;
+}
