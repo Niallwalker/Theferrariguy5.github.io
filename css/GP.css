@@ -1,7 +1,7 @@
 /* Add a black background color to navigation bar */
 .nav {
   overflow: hidden;
-  background-color: black;
+  background-color: #FF5A09;
   
 }
 
@@ -19,13 +19,34 @@
 /* Change the color of links on hover */
 .nav a:hover {
   background-color: #F6A243;
-  color: white;
+  color: ;
 }
 
 /* Style the "active" element to highlight the current page */
 .nav a.active {
-  background-color: #FF8900;
+  background-color: #393939 ;
   color: white;
 }
+.container{
+	background-color:#393939;
+	
+}
+.container a{
+background-color:#FF5A09;	
+}
+.container h1{
+color:#FF5A09;
+}
+
+.container h3{
+color:#FF5A09;
+}
+.container li{
+color:white;
+}
+.color{
+	background-color:#393939;
+}
+
 
 
