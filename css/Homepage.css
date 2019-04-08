@@ -4,7 +4,9 @@
   background-color: black;
   
 }
-
+.container{
+	width:80%;
+}
 /* Style the links inside the navigation bar */
 .nav a {
   float: left;
@@ -27,7 +29,10 @@
   background-color: #FF8900;
   color: white;
 }
-/*end of nav bar
+/*end of nav bar*/
+.col1{
+	position: relative;
+}
 /*slideshow*/
 @keyframes fade {
   0%   { opacity: 0; }
@@ -38,36 +43,21 @@
 }
 
 .fadein { 
-	position:relative; 
-	height:467px; 
-	width:700px; 
-	outline: 5px solid orange;
-	float: left; 
+	position: absolute;
+	height:80%; 
+	width:80%; 
+	outline: solid orange;
+	text-align: center;
+	left: 10%;
+	border-radius: 15px 50px 30px 5px;
 }
-.fadein img { position:absolute; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 9s; animation-iteration-count: infinite; }
+.fadein img { position:absolute; left:0; right:0; opacity:0; animation-name: fade; animation-duration: 12s; animation-iteration-count: infinite; }
 .fadein img:nth-child(1) { animation-delay: 0s;  }
 .fadein img:nth-child(2) { animation-delay: 3s;  }
 .fadein img:nth-child(3) { animation-delay: 6s;  }
+.fadein img:nth-child(4) { animation-delay: 9s;  }
 /*end of slideshow*/
 
-.col1{
-	position:relative; 
-	width:50%; 
-	float: left;
-	padding: 15px;
-}
-.col2{
-	position:relative; 
-	width:50%; 
-	float: right; 
-	padding: 15px;
-}
-.location { 
-	position:relative; 
-	height:467px;
-	outline: 5px solid orange; 
-	float: left; 
-}
 .banner{
 	width: 100%;
 }
@@ -75,27 +65,46 @@
 	float: center;
 }
 .footer{
-	position: relative;
-	height: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
 	width: 100%;
-	text-align: center;
-	float: right;
-}
-.award{
-	position: relative;
-	height: 100%;
-	width: 100%;
-	text-align: center;
-	float: right;
-}
-.p{
-	width: 100%;
-	text-align: center;
-}
-.footer{
 	background-color: orange;
 	color: white;
-}	
+	text-align: center;
+}
+.col2{
+	position: relative;
+}
+
+.shop{
+	position: relative;
+	height: 60%;
+	width: 100%;
+	text-align: center;
+	float: left;
+	bottom: 0%;
+}
+.col3{
+	position: relative;
+}
+.award{
+	position: absolute;
+	height: 60%;
+	width: 100%;
+	text-align: center;
+	float: right;
+	bottom: -100%;
+	padding: 5%;
+}
+#text{
+	width: 80%;
+
+}
+.p{
+	padding: 1%;
+	text-align: center;
+}
 .about{
 	text-align: center;
 }
