@@ -156,7 +156,7 @@ form input.qty {
 	line-height: 3;
 	text-align: center;
 	background: #f26522;
-	position: fixed;
+	position: relative;
 	color: #fff;
 	left: 0px;
 	bottom: 0px;
@@ -329,6 +329,7 @@ body#checkout-page #site-info {
 
 #paypal-form {
 	margin: 1.5em 0;
+	color: yellow;
 }
 .site-info{
 	width: 10%;
